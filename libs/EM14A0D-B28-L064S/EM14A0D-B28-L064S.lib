@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# EM14A0D-B28-L064S
+#
+DEF EM14A0D-B28-L064S S 0 40 Y Y 1 L N
+F0 "S" -300 430 50 H V L BNN
+F1 "EM14A0D-B28-L064S" -300 -430 50 H V L BNN
+F2 "SW_EM14A0D-B28-L064S" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "09/21" 0 0 50 H I L BNN "PARTREV"
+F5 "32.79 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "Bourns" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+P 2 0 0 10 -250 100 -150 100 N
+P 2 0 0 10 -150 100 -150 50 N
+P 2 0 0 10 -250 -100 -150 -100 N
+P 2 0 0 10 -150 -100 -150 -50 N
+P 2 0 0 10 -100 50 -100 0 N
+P 2 0 0 10 -100 0 -100 -50 N
+P 2 0 0 10 -100 0 0 0 N
+C -150 50 10 0 0 20 N
+C -150 -50 10 0 0 20 N
+T 0 -100 -100 70 0 0 0 1 Normal 0 L T
+T 0 -100 100 70 0 0 0 2 Normal 0 L B
+S -300 -400 300 400 0 0 10 f
+X + + 400 300 100 L 40 40 0 0 W 
+X - - 400 -300 100 L 40 40 0 0 W 
+X B B 400 100 100 L 40 40 0 0 P 
+X A A 400 -100 100 L 40 40 0 0 P 
+X ~ 2 -400 100 100 R 40 40 0 0 P 
+X ~ 1 -400 -100 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
