@@ -1,0 +1,41 @@
+(module SK6812MINI-E (layer F.Cu) (tedit 00000000)
+  (descr "SK6812MINI-E reverse mount LED with board cutout")
+  (tags "SK6812 MINI E reverse mount LED")
+  (attr smd)
+  (model ${KICAD6_3DMODEL_DIR}/SK6812MINI-E.wrl
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+
+  # Pads
+  (pad 1 smd rect (at 0 0) (size 1.5 1.5) (layers B.Cu B.Paste B.Mask))
+  (pad 2 smd rect (at 0 2.5) (size 1.5 1.5) (layers B.Cu B.Paste B.Mask))
+  (pad 3 smd rect (at 2.5 0) (size 1.5 1.5) (layers B.Cu B.Paste B.Mask))
+  (pad 4 smd rect (at 2.5 2.5) (size 1.5 1.5) (layers B.Cu B.Paste B.Mask))
+
+  # Board cutout on bottom  
+  (fp_line (layer Edge.Cuts) (width 0.1)
+    (start -0.5 -0.5) (end 3.0 -0.5))
+  (fp_line (layer Edge.Cuts) (width 0.1)
+    (start 3.0 -0.5) (end 3.0 3.0))
+  (fp_line (layer Edge.Cuts) (width 0.1)
+    (start 3.0 3.0) (end -0.5 3.0))
+  (fp_line (layer Edge.Cuts) (width 0.1)
+    (start -0.5 3.0) (end -0.5 -0.5))
+
+  # Courtyard
+  (fp_line (layer F.CrtYd) (width 0.05)
+    (start -1.0 -1.0) (end 3.5 -1.0))
+  (fp_line (layer F.CrtYd) (width 0.05)
+    (start 3.5 -1.0) (end 3.5 3.5))
+  (fp_line (layer F.CrtYd) (width 0.05)
+    (start 3.5 3.5) (end -1.0 3.5))
+  (fp_line (layer F.CrtYd) (width 0.05)
+    (start -1.0 3.5) (end -1.0 -1.0))
+
+  # Reference and value
+  (fp_text reference "LED?" (at 0 -2.0) (layer F.SilkS))
+  (fp_text value "SK6812MINI-E" (at 0 4.0) (layer F.Fab))
+
+)

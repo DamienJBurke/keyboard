@@ -19442,7 +19442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "277fe75b-2b3c-478c-b8a0-5e889cd8a3a8")
-		(property "Reference" "LED_\\1"
+		(property "Reference" "LED_bs1"
 			(at 534.67 321.31 0)
 			(effects
 				(font
@@ -19542,7 +19542,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_\\1")
+					(reference "LED_bs1")
 					(unit 1)
 				)
 			)
@@ -22186,10 +22186,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4171f24b-e096-4c48-a726-6939550e1e3b")
-		(property "Reference" "LED_-1"
-			(at 461.01 295.91 0)
+		(property "Reference" "LED_minus1"
+			(at 460.756 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22197,7 +22196,7 @@
 			)
 		)
 		(property "Value" "WS2812C-2020"
-			(at 461.01 298.45 0)
+			(at 460.756 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22288,7 +22287,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_-1")
+					(reference "LED_minus1")
 					(unit 1)
 				)
 			)
@@ -22831,9 +22830,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c8c4dcf-c61d-4d99-83d8-d1dec3be5534")
-		(property "Reference" "LED_'1"
+		(property "Reference" "LED_quote1"
 			(at 461.01 350.52 0)
 			(effects
 				(font
@@ -22933,7 +22931,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_'1")
+					(reference "LED_quote1")
 					(unit 1)
 				)
 			)
@@ -30585,9 +30583,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d931ffa-5545-4287-996e-2f6fb73e0284")
-		(property "Reference" "LED_;1"
+		(property "Reference" "LED_sc1"
 			(at 424.18 350.52 0)
 			(effects
 				(font
@@ -30687,7 +30684,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_;1")
+					(reference "LED_sc1")
 					(unit 1)
 				)
 			)
@@ -30702,7 +30699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9deec901-2286-4fdd-a21d-b700ab726481")
-		(property "Reference" "LED_]1"
+		(property "Reference" "LED_rb1"
 			(at 497.84 321.31 0)
 			(effects
 				(font
@@ -30802,7 +30799,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_]1")
+					(reference "LED_rb1")
 					(unit 1)
 				)
 			)
@@ -33056,10 +33053,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b620bf23-0826-462c-837c-1d299f405a38")
-		(property "Reference" "LED_/1"
-			(at 424.18 375.92 0)
+		(property "Reference" "LED_fs1"
+			(at 424.18 376.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33067,7 +33063,7 @@
 			)
 		)
 		(property "Value" "WS2812C-2020"
-			(at 424.18 378.46 0)
+			(at 424.18 378.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33158,7 +33154,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_/1")
+					(reference "LED_fs1")
 					(unit 1)
 				)
 			)
@@ -34076,10 +34072,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1947ecf-82b1-4f3d-b45b-82fef433b2de")
-		(property "Reference" "LED_=1"
-			(at 497.84 295.91 0)
+		(property "Reference" "LED_equal1"
+			(at 497.586 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34087,7 +34082,7 @@
 			)
 		)
 		(property "Value" "WS2812C-2020"
-			(at 497.84 298.45 0)
+			(at 497.586 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34178,7 +34173,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_=1")
+					(reference "LED_equal1")
 					(unit 1)
 				)
 			)
@@ -37309,7 +37304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfcda923-1747-43b7-8579-5f03e47ab516")
-		(property "Reference" "LED_[1"
+		(property "Reference" "LED_lb1"
 			(at 461.01 321.31 0)
 			(effects
 				(font
@@ -37409,7 +37404,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_[1")
+					(reference "LED_lb1")
 					(unit 1)
 				)
 			)
@@ -38569,10 +38564,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea37465e-eb77-4d2e-beb9-4771dc50d446")
-		(property "Reference" "LED_.1"
-			(at 387.35 375.92 0)
+		(property "Reference" "LED_fullstop1"
+			(at 387.35 376.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38580,7 +38574,7 @@
 			)
 		)
 		(property "Value" "WS2812C-2020"
-			(at 387.35 378.46 0)
+			(at 387.35 378.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38671,7 +38665,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_.1")
+					(reference "LED_fullstop1")
 					(unit 1)
 				)
 			)
@@ -39716,10 +39710,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6f621f4-5520-4ad7-892d-7dc92147161e")
-		(property "Reference" "LED_,1"
-			(at 350.52 375.92 0)
+		(property "Reference" "LED_comma1"
+			(at 350.52 376.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39727,7 +39720,7 @@
 			)
 		)
 		(property "Value" "WS2812C-2020"
-			(at 350.52 378.46 0)
+			(at 350.52 378.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39818,7 +39811,7 @@
 		(instances
 			(project "pcb-guide"
 				(path "/0abdda29-5dd4-4b90-a349-ef0f202cc9c1"
-					(reference "LED_,1")
+					(reference "LED_comma1")
 					(unit 1)
 				)
 			)
