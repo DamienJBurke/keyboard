@@ -9,4 +9,5 @@
   (lib (name "EM14A0D-B28-L064S")(type "KiCad")(uri "${KIPRJMOD}/libs/EM14A0D-B28-L064S")(options "")(descr ""))
   (lib (name "eec")(type "KiCad")(uri "${KIPRJMOD}/libs/Enc_Bourns_PEC11R-4015F-S0024/eec.pretty")(options "")(descr ""))
   (lib (name "encoder")(type "KiCad")(uri "${KIPRJMOD}/libs/PEC11R-4215F-S0024")(options "")(descr ""))
+  (lib (name "usb_c")(type "KiCad")(uri "${KIPRJMOD}/libs/TYPE-C-31-M-12")(options "")(descr ""))
 )
