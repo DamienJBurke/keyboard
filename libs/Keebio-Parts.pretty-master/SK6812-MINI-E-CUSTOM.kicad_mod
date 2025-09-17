@@ -269,15 +269,15 @@
 		(uuid "9700fc9b-b921-4996-98a1-719f6d04e3d3")
 	)
 	(embedded_fonts no)
-	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
+	(model "${KIPRJMOD}/3dmodels/SK6812-E--3DModel-STEP-269445.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 90 -0 -0)
 		)
 	)
 )
